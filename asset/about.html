@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============gooogle fonts ========= -->
+    <link href="https://fonts.googleapis.
+    com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins
+    :wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- =============gooogle fonts ========= -->
+
+     <!-- ============icons ========= -->
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <!-- =============icons ========= -->
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="shop.js" defer></script>
+    <script src="about.js" defer></script>
+    <script src="home.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="home">
+
+    <!--  ======================= header section =================== -->
+    
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class='bx bx-x'></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="fs-100 fs-montserrat bold-500" href="index.html">Home</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="about.html">About Us</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">Login</p>
+            <i class='bx bx-search'></i>
+            <i id="cart-box" aria-controls="cart-icon" class='bx bx-shopping-bag'></i>
+
+            <!--  =============================================  -->
+
+            <!--Cart Box -->
+
+            <div class="cart-icon" data-visible="false" id="cart-icon">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class='bx bx-x'></i>
+                </div> 
+                <div class="cart bold-800 flex">
+                    <i class="bx bx-cart"></i>
+                    <p>Cart is Empty</p>
+                </div>
+            </div>
+            <!-- ============================================  -->
+            <!---->
+            <div class="mobile-open-btn">
+                <i class='bx bx-menu' ></i>
+            </div>
+
+        </div>
+    </header>
+
+     <!--  ======================= End header section =================== -->
+
+     <!--  ======================= About Main =================== -->
+
+      <!--  ======================= feature section =================== -->
+
+
+      <section class="shop-feature bg-gray grid">
+        <div>
+            <p class="fs-montserrat text-black">Home <span aria-haspopup="true" class="margin">></span>About</p>
+        </div>
+        <h2 class="fs-poppins fs-300 bold-700">About Us</h2>
+     </section>
+     <!--  ======================= feature section end =================== -->
+
+     <!--  ======================= about main Section =================== -->
+
+     <section class="about-section grid">
+        <div>
+            <img src="img/lumensoft-technologies-WaGMKmJ2F0Y-unsplash.jpg" alt="">
+        </div>
+        <div class="about-info">
+            <h3 class="fs-poppins fs-200 text-red">Welcome to digital Ecommerce</h3>
+            <h1 class="fs-montserrat fs-500 text-black">Who We Are?</h1>
+            <p class="fs-montserrat fs-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+
+                Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris. Integer in pulvinar mauris. Donec facilisis placerat magna sed cursus. Mauris vel tristique arcu. Duis congue orci id libero dictum sollicitudin. Curabitur dapibus arcu leo, condimentum tempus augue condimentum sed. Aliquam sed auctor ex. <br><br>
+                
+                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam vel felis molestie, malesuada neque tempus, bibendum mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui. Vestibulum neque tortor, placerat sit amet condimentum euismod, suscipit lobortis diam. Sed varius elit non erat dignissim vulputate.
+                
+                Etiam sit amet leo efficitur leo commodo auctor quis sed est.</p>
+
+                <div class="about-btn">
+                    <button class="large-btn bg-red text-white fs-poppins">Shop Now</button>
+                </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- ========================= Brand section =============================-->
+      <section class="brands grid">
+        <div>
+            <img src="img/sponsors1.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors2.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors3.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors4.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors5.png" alt="">
+        </div>
+     </section>
+
+     <!-- ========================= Brand section end =============================-->
+
+     <!-- ========================= footer section =============================-->
+     <section class="footer grid">
+        <div class="footer-logo grid">
+            <img src="img/logo.png" alt="">
+            <p class="fs-montserrat fs-100">There are many variations passages of lorem Ipsum available, but the majority have</p>
+            <div class="social-media flex">
+                <i class='bx bxl-facebook-circle' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </div>
+        </div>
+        <div class="footer-menu grid">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Shop</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact grid">
+            <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+            <p class="fs-montserrat">+234  8118 508 590 Clifford-okoroji Chibuzo Chris Gwarimpa Abuja</p>
+        </div>
+
+        <div class="emails grid">
+            <h3 class="fs-poppins fs-200 bold 800">Subscribe To Our Email</h3>
+            <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+        </div>
+        <div class="inputField flex bg-gray">
+            <input type="email" placeholder="Enter your Email" class="fs-montserrat bg-gray">
+            <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+        </div>
+     </section>
+
+     <!-- ========================= footer section end =============================-->
+
+
+     <!-- ========================= copy right section =============================-->
+
+     <section class="copyright">
+        <p class="c-font fs-montserrat fs-100">&#169; 2023 eStore All rights reserved</p>
+        <p class="fs-montserrat fs-100 text-white text-align p-top">Privacy Policy . Terms & Condition </p>
+     </section>
+
+     <!-- ========================= copy right section end =============================-->
+
+
+
+
+
+
+
+
+     <script type="text/javascript" src="asset/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============gooogle fonts ========= -->
+    <link href="https://fonts.googleapis.
+    com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins
+    :wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- =============gooogle fonts ========= -->
+
+     <!-- ============icons ========= -->
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <!-- =============icons ========= -->
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <script src="shop.js" defer></script>
+    <script src="home.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body class="home">
+
+    <!--  ======================= header section =================== -->
+    
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class='bx bx-x'></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="fs-100 fs-montserrat bold-500" href="index.html">Home</a></li>
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About Us</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">Login</p>
+            <i class='bx bx-search'></i>
+            <i id="cart-box" aria-controls="cart-icon" class='bx bx-shopping-bag'></i>
+
+            <!--  =============================================  -->
+
+            <!--Cart Box -->
+
+            <div class="cart-icon" data-visible="false" id="cart-icon">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class='bx bx-x'></i>
+                </div> 
+                <div class="cart bold-800 flex">
+                    <i class="bx bx-cart"></i>
+                    <p>Cart is Empty</p>
+                </div>
+            </div>
+            <!-- ============================================  -->
+            <!---->
+            <div class="mobile-open-btn">
+                <i class='bx bx-menu' ></i>
+            </div>
+
+        </div>
+    </header>
+
+     <!--  ======================= End header section =================== -->
+
+     <!--  ======================= Shop section =================== -->
+
+     <!--  ======================= Shop feature section =================== -->
+
+
+     <section class="shop-feature bg-gray grid">
+        <div>
+            <p class="fs-montserrat text-black">Home <span aria-haspopup="true" class="margin">></span>Product</p>
+        </div>
+        <h2 class="fs-poppins fs-300 bold-700">Products</h2>
+     </section>
+     <!--  ======================= Shop feature section end =================== -->
+
+     <!--  ======================= section 2 =================== -->
+
+     <main class="shop-main-container grid">
+        <div>
+            <div class="shop-title flex">
+                <div>
+                    <h2 class="fs-poppins fs-300">Shop</h2>
+                    <p class="fs-montesrrat">Showing 1-9 of 10 results</p>
+                </div>
+                <div>
+                    <select name="text" class="fs-poppins bg-black text-white">
+                        <option value="text">Default Sorting</option>
+                        <option value="text">Short By Popularity</option>
+                        <option value="text">Short By rating</option>
+                        <option value="text">Short By latest</option>
+                        <option value="text">Short By price</option>
+                        <option value="text">Short By low of Hight</option>
+                        <option value="text">Short By hight of low</option>
+                    </select>
+                </div>
+            </div>
+
+        <!-- ====================== end of inner section ====================== -->
+
+        <!-- ======================= Shop Product section ============ -->
+        <section class="shop-product grid">
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+
+            <div class="product-list grid">
+                <img src="img/headphones_c_1.webp" alt="">
+                <p class="fs-montserrat bold-600">Beats</p>
+                <div class="shop-btn flex">
+                    <button class="bg-red text-white fs-montesrrat">Add To Cart</button>
+                    <p class="fs-montserrat bold-700">$ 995.00</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+                <div class="pup-up">
+                    <p class="fs-poppins">Sell</p>
+                </div>
+
+                <!-- ================= pop up ===================== -->
+            </div>
+                <!-- ================= product end ===================== -->
+        </section>
+        </div>
+
+        <!-- ======================= side bar section ==================== -->
+        <section>
+            <div class="sidebar-search text-black bg-gray flex">
+                <input type="text" placeholder="Search Here" class="fs-montserrat bg-gray">
+                <div>
+                    <i class='bg-red text-white bx bx-search'></i>
+                </div>
+            </div>
+            <aside class="sidebar-category">
+                <div class="category-list flex">
+                    <h3 class="fs-poppins bold-700 fs-200">Product Category</h3>
+                    <i id="arrow" class='bx bx-chevron-right' data-category="false" ></i>
+                </div>
+
+                <!-- ============== category list ========================= -->
+
+                <div class="shop-category-list">
+                    <ul id="side-nav" class="sidebar-nav grid" data-category="false">
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Earphones</a></li>
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Gadgets</a></li>
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Headphones</a></li>
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Speakers</a></li>
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Uncategorized</a></li>
+                        <li><a href="#" class="fs-montserrat text-black bold-500">Gifts</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+     </main>
+
+     <!--  ======================= section 2 end =================== -->
+
+
+     <!--  ======================= Shop section end =================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+      <!-- ========================= Brand section =============================-->
+      <section class="brands grid">
+        <div>
+            <img src="img/sponsors1.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors2.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors3.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors4.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors5.png" alt="">
+        </div>
+     </section>
+
+     <!-- ========================= Brand section end =============================-->
+
+      <!-- ========================= footer section =============================-->
+      <section class="footer grid">
+        <div class="footer-logo grid">
+            <img src="img/logo.png" alt="">
+            <p class="fs-montserrat fs-100">There are many variations passages of lorem Ipsum available, but the majority have</p>
+            <div class="social-media flex">
+                <i class='bx bxl-facebook-circle' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </div>
+        </div>
+        <div class="footer-menu grid">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Shop</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact grid">
+            <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+            <p class="fs-montserrat">+234  8118 508 590 Clifford-okoroji Chibuzo Chris Gwarimpa Abuja</p>
+        </div>
+
+        <div class="emails grid">
+            <h3 class="fs-poppins fs-200 bold 800">Subscribe To Our Email</h3>
+            <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+        </div>
+        <div class="inputField flex bg-gray">
+            <input type="email" placeholder="Enter your Email" class="fs-montserrat bg-gray">
+            <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+        </div>
+     </section>
+
+     <!-- ========================= footer section end =============================-->
+
+
+     <!-- ========================= copy right section =============================-->
+
+     <section class="copyright">
+        <p class="c-font fs-montserrat fs-100">&#169; 2023 eStore All rights reserved</p>
+        <p class="fs-montserrat fs-100 text-white text-align p-top">Privacy Policy . Terms & Condition </p>
+     </section>
+
+     <!-- ========================= copy right section end =============================-->
+
+
+
+
+
+
+
+
+     <script type="text/javascript" src="asset/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============gooogle fonts ========= -->
+    <link href="https://fonts.googleapis.
+    com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins
+    :wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- =============gooogle fonts ========= -->
+
+     <!-- ============icons ========= -->
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <!-- =============icons ========= -->
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="home">
+
+    <!--  ======================= header section =================== -->
+    
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class='bx bx-x'></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="index.html">Home</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About Us</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">Login</p>
+            <i class='bx bx-search'></i>
+            <i id="cart-box" aria-controls="cart-icon" class='bx bx-shopping-bag'></i>
+
+            <!--  =============================================  -->
+
+            <!--Cart Box -->
+
+            <div class="cart-icon" data-visible="false" id="cart-icon">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class='bx bx-x'></i>
+                </div> 
+                <div class="cart bold-800 flex">
+                    <i class="bx bx-cart"></i>
+                    <p>Cart is Empty</p>
+                </div>
+            </div>
+            <!-- ============================================  -->
+            <!---->
+            <div class="mobile-open-btn">
+                <i class='bx bx-menu' ></i>
+            </div>
+
+        </div>
+    </header>
+
+     <!--  ======================= End header section =================== -->
+
+     <!-- ======================= Hero section ============================-->
+    
+     <main class="hero-section">
+        <div>
+            <h1 class="fs-200 fs-poppins">Beat Solo <span class="big-wireless block lineheight fs-300 bold-900 fs-poppins">Wireless</span><span class="text-white uppercase lineheight2 bold-bolder fs-poppins fs-900">HeadPhone</span></h1>
+            <img src="img/headphones_c_2.webp" alt="">
+        </div>
+        <div class="hero-inner flex">
+            <div>
+                <button class="large-btn bg-red text-white fs-poppins fs-50">Shop By Category</button>
+            </div>
+            <div class="hero-info">
+                <h4 class="fs-montserrat">Description</h4>
+                <p class="fs-montserrat">There are many variations passages of Lorem Ipsum available but the majority have suffered alteration</p>
+            </div>
+        </div>
+     </main>
+
+
+     <!-- ======================= end of hero section =====================-->
+
+     <!-- ======================= Product Section =========================-->
+
+     <section class="product-section">
+
+     <!-- ======================= 1 =========================-->
+
+        <div class="category bg-black grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-white bg-red fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img1">
+            <img src="img/earphones_a_3.webp" alt="">
+            </div>
+        </div>
+
+     <!-- ======================= 2 =========================-->
+
+        <div class="category bg-yellow grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-yellow bg-white fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img2">
+            <img src="img/earphones_a_4.webp" alt="">
+            </div>
+        </div>
+
+     <!-- ======================= 3 =========================-->
+
+        <div class="category bg-red grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-red bg-white fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img3">
+            <img src="img/earphones_a_1.webp" alt="">
+            </div>
+        </div>
+
+     <!-- ======================= 4 =========================-->
+
+        <div class="category bg-gray grid">
+            <div>
+                <h3 class="text-black fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-white bg-red fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img4">
+            <img src="img/headphones_a_2.webp" alt="">
+            </div>
+        </div>
+
+     <!-- ======================= 5 =========================-->
+
+        <div class="category bg-green grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-green bg-white fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img5">
+            <img src="img/earphones_b_4.webp" alt="">
+            </div>
+        </div>
+
+     <!-- ======================= 6 =========================-->
+
+        <div class="category bg-blue grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight">Earphone</span></h3>
+                <button class="product-btn large-btn text-blue bg-white fs-montserrat">Browse</button>
+            </div>
+        
+            <div class="product-img6">
+            <img src="img/earphones_b_1.webp" alt="">
+            </div>
+        </div>
+     </section>
+
+     <!-- ======================= Product Section end =========================-->
+
+     <!--========================= service section =============================-->
+
+     <section class="service-section">
+        <div class="service">
+            <i class='bx bx-bus'></i>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-200">Free Shipping</h3>
+                <p class="fs-montserrat fs-50">Free Shipping On All Order</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <i class='bx bx-badge-check'></i>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-200">Money Guarantee</h3>
+                <p class="fs-montserrat fs-50">30 Days Money Back</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <i class='bx bx-headphone'></i>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-200">Online Support 24/7</h3>
+                <p class="fs-montserrat fs-50">Technical Support 24/7</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <i class='bx bx-wallet'></i>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-200">Secured Payment</h3>
+                <p class="fs-montserrat fs-50">All card Acepted</p>
+            </div>
+        </div>
+     </section>
+
+     <!--========================= service section end =============================-->
+
+
+
+     <!-- ========================== feature section ==============================-->
+
+     <section class="feature-section bg-red">
+        <div class="feature-one grid">
+            <img src="img/headphones_a_4.webp" alt="">
+            <p class="text-white uppercase">20% OFF</p>
+            <p class="font-size lineheight fs-600 lineheight2 text-white fs-poppins bold-900 uppercase">FINE <span class="smile">SMILE</span></p>
+            <p class="text-white fs-poppins fs-50 date">35 Nov To & Dec</p>
+        </div>
+        <div class="feature-info">
+            <h2 class="fs-200 text-white fs-poppins bold-500">Beats Solo Air</h2>
+            <p  class="fs-poppins fs-300 bold-800 text-white">Summer Sale</p>
+            <p class="fs-montserrat text-white fs-50">Company that grown from 270 to 480 employees in the last 12 months</p>
+            <button class="product-btn large-btn text-red bg-white fs-poppins">Shop</button>
+        </div>
+     </section>
+
+     <!-- ========================== feature section end ==============================-->
+
+     <!-- ========================== best seller product ==============================-->
+
+     <!-- ++++++++++++++++++++++++++ heading ++++++++++++++++++++++++++++++++++++++++=-->
+
+     <section class="best-product container">
+        <h2 class="letter-spacing bold-bolder fs-300 fs-poppins">Best Seller Products</h2>
+        <p class="fs-montserrat fs-100">Speaker There are many variations passages</p>
+     </section>
+     <section class="best-Seller">
+            <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/watch_1.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/watch_2.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/watch_3.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/headphones_c_2.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/headphones_c_3.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/speaker1.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/speaker2.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/speaker3.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/speaker4.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+                <!-- =========================================-->
+
+
+        <div class="product grid">
+            <img class="bg-gray" src="img/headphones_c_1.webp" alt="">
+            <p class="fs-poppins bold-500">Blue EliteBook Tablet 810</p>
+            <p class="fs-poppins bold-500">$995.80</p>
+            <!-- =========================================-->
+            <div class="product-details grid bg-red">
+                <i class='bx text-white bx-cart'></i>
+                <i class='bx text-white bx-heart' ></i>
+            </div>
+            <!-- =========================================-->
+
+        </div>
+            <!-- =========================================-->
+
+     </section>
+
+     <!-- ========================== best seller product end ==============================-->
+
+
+
+
+     <!-- ========================== feature section 2 ==============================-->
+
+     <section class="feature-section bg-green">
+        <div class="feature-one feature-green grid">
+            <img src="img/headphones_a_3.webp" alt="">
+            <p class="text-white uppercase">20% OFF</p>
+            <p class="font-size lineheight fs-600 lineheight2 text-white fs-poppins bold-900 uppercase">FINE <span class="smile">SMILE</span></p>
+            <p class="text-white fs-poppins fs-50 date">35 Nov To & Dec</p>
+        </div>
+        <div class="feature-info">
+            <h2 class="fs-200 text-white fs-poppins bold-500">Beats Solo Air</h2>
+            <p  class="fs-poppins fs-300 bold-800 text-white">Summer Sale</p>
+            <p class="fs-montserrat text-white fs-50">Company that grown from 270 to 480 employees in the last 12 months</p>
+            <button class="product-btn large-btn text-green bg-white fs-poppins">Shop</button>
+        </div>
+     </section>
+     <!-- ========================== feature section end ==============================-->
+
+
+
+     <!-- ========================= heading rescent News =============================-->
+     <section class="best-product container">
+        <h2 class="letter-spacing bold-bolder fs-300 fspoppins">
+            Resent News
+        </h2>
+        <p class="fs-montserrat fs-100">There are many variation passages</p>
+     </section>
+
+
+    <section class="recent-news grid">
+     <!-- ============================================================== -->
+        
+            <div class="news grid">
+                <img src="img/nikolay-tarashchenko-0mX_FXDojEE-unsplash.jpg" alt="">
+                <div class="fs-montserrat fs-100 flex">
+                    <p>October 5, 2023</p>
+                    <p>by ecommerce store 3</p>
+                </div>
+                <h2 class="fs-poppins padding-inline fs-200 fs-bold">How to choose the perfect gadgets</h2>
+                <p class="padding-inline fs-montserrat fs-100">When, while the lovely valley teens with vapour around me,
+                    and the meridian sun strikes the upper s..
+                </p>
+            </div>
+        <!-- ============================================================== -->
+
+        <!-- ============================================================== -->
+            <div class="news grid">
+                <img src="img/lumensoft-technologies-WaGMKmJ2F0Y-unsplash.jpg" alt="">
+                <div class="fs-montserrat fs-100 flex">
+                    <p>October 5, 2023</p>
+                    <p>by ecommerce store 3</p>
+                </div>
+                <h2 class="fs-poppins padding-inline fs-200 fs-bold">How to choose the perfect gadgets</h2>
+                <p class="padding-inline fs-montserrat fs-100">When, while the lovely valley teens with vapour around me,
+                    and the meridian sun strikes the upper s..
+                </p>
+            </div>
+        <!-- ============================================================== -->
+
+        <!-- ============================================================== -->
+            <div class="news grid">
+                <img src="img/jorge-ramirez-SVpWtjXmLZg-unsplash.jpg" alt="">
+                <div class="fs-montserrat fs-100 flex">
+                    <p>October 5, 2023</p>
+                    <p>by ecommerce store 3</p>
+                </div>
+                <h2 class="fs-poppins padding-inline fs-200 fs-bold">How to choose the perfect gadgets</h2>
+                <p class="padding-inline fs-montserrat fs-100">When, while the lovely valley teens with vapour around me,
+                    and the meridian sun strikes the upper s..
+                </p>
+            </div>
+        <!-- ============================================================== -->
+
+
+    </section>
+
+     <!-- ========================= heading rescent News end =============================-->
+
+
+
+     <!-- ========================= Brand section =============================-->
+     <section class="brands grid">
+        <div>
+            <img src="img/sponsors1.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors2.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors3.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors4.png" alt="">
+        </div>
+
+        <div>
+            <img src="img/sponsors5.png" alt="">
+        </div>
+     </section>
+
+     <!-- ========================= Brand section end =============================-->
+
+     <!-- ========================= footer section =============================-->
+     <section class="footer grid">
+        <div class="footer-logo grid">
+            <img src="img/logo.png" alt="">
+            <p class="fs-montserrat fs-100">There are many variations passages of lorem Ipsum available, but the majority have</p>
+            <div class="social-media flex">
+                <i class='bx bxl-facebook-circle' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-linkedin' ></i>
+            </div>
+        </div>
+        <div class="footer-menu grid">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Shop</a></li>
+
+                <li><a class="fs-montserrat text-black fs-100" href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact grid">
+            <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+            <p class="fs-montserrat">+234  8118 508 590 Clifford-okoroji Chibuzo Chris Gwarimpa Abuja</p>
+        </div>
+
+        <div class="emails grid">
+            <h3 class="fs-poppins fs-200 bold 800">Subscribe To Our Email</h3>
+            <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+        </div>
+        <div class="inputField flex bg-gray">
+            <input type="email" placeholder="Enter your Email" class="fs-montserrat bg-gray">
+            <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+        </div>
+     </section>
+
+     <!-- ========================= footer section end =============================-->
+
+
+     <!-- ========================= copy right section =============================-->
+
+     <section class="copyright">
+        <p class="c-font fs-montserrat fs-100">&#169; 2023 eStore All rights reserved</p>
+        <p class="fs-montserrat fs-100 text-white text-align p-top">Privacy Policy . Terms & Condition </p>
+     </section>
+
+     <!-- ========================= copy right section end =============================-->
+
+
+
+
+
+
+
+
+     <script type="text/javascript" src="asset/home.js"></script>
+</body>
+</html>
